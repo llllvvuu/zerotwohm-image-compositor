@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.80219b10.chunk.css",
-    "main.js": "/static/js/main.1f333f97.chunk.js",
-    "main.js.map": "/static/js/main.1f333f97.chunk.js.map",
+    "main.js": "/static/js/main.817b7b2b.chunk.js",
+    "main.js.map": "/static/js/main.817b7b2b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e23d510f.js",
     "runtime-main.js.map": "/static/js/runtime-main.e23d510f.js.map",
     "static/css/2.2a338543.chunk.css": "/static/css/2.2a338543.chunk.css",
@@ -27,14 +27,15 @@
     "static/media/red-hat-display-v4-latin-ext_latin-regular.4d0ae651.ttf": "/static/media/red-hat-display-v4-latin-ext_latin-regular.4d0ae651.ttf",
     "static/media/red-hat-display-v4-latin-ext_latin-regular.9e52ff44.woff": "/static/media/red-hat-display-v4-latin-ext_latin-regular.9e52ff44.woff",
     "static/media/token_sOHM-transparent.832b5dd7.png": "/static/media/token_sOHM-transparent.832b5dd7.png",
-    "static/media/token_sOHM.da3b5f33.png": "/static/media/token_sOHM.da3b5f33.png",
-    "static/media/twitterCircleWhite.0e58c368.svg": "/static/media/twitterCircleWhite.0e58c368.svg"
+    "static/media/token_sOHM.cc8fe967.png": "/static/media/token_sOHM.cc8fe967.png",
+    "static/media/twitterCircleWhite.0e58c368.svg": "/static/media/twitterCircleWhite.0e58c368.svg",
+    "static/media/whiteBg.94532372.png": "/static/media/whiteBg.94532372.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e23d510f.js",
     "static/css/2.2a338543.chunk.css",
     "static/js/2.51619aec.chunk.js",
     "static/css/main.80219b10.chunk.css",
-    "static/js/main.1f333f97.chunk.js"
+    "static/js/main.817b7b2b.chunk.js"
   ]
 }
