@@ -42,7 +42,7 @@ function MainNavLinksV4() {
       </Zoom>
       <Box style={footerBoxStyles}>
         <Typography style={footerTextStyles}>
-          <a href="https://www.olympusdao.finance/">Forked</a>from<a href="https://ohmie.olympusdao.finance/">OlympusDAO</a>with gratitude
+          <a href="https://ohmie.olympusdao.finance/" target="_blank">Forked</a>from<a href="https://www.olympusdao.finance/" target="_blank">OlympusDAO</a>with gratitude
         </Typography>
       </Box>
     </Box>
