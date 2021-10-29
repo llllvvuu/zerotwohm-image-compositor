@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80219b10.chunk.css",
+    "main.js": "/static/js/main.1f333f97.chunk.js",
+    "main.js.map": "/static/js/main.1f333f97.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e23d510f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e23d510f.js.map",
+    "static/css/2.2a338543.chunk.css": "/static/css/2.2a338543.chunk.css",
+    "static/js/2.51619aec.chunk.js": "/static/js/2.51619aec.chunk.js",
+    "static/js/2.51619aec.chunk.js.map": "/static/js/2.51619aec.chunk.js.map",
+    "static/js/3.23333546.chunk.js": "/static/js/3.23333546.chunk.js",
+    "static/js/3.23333546.chunk.js.map": "/static/js/3.23333546.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2a338543.chunk.css.map": "/static/css/2.2a338543.chunk.css.map",
+    "static/css/main.80219b10.chunk.css.map": "/static/css/main.80219b10.chunk.css.map",
+    "static/js/2.51619aec.chunk.js.LICENSE.txt": "/static/js/2.51619aec.chunk.js.LICENSE.txt",
+    "static/media/EuclidSquare-Bold.22d0be7b.woff": "/static/media/EuclidSquare-Bold.22d0be7b.woff",
+    "static/media/EuclidSquare-Italic.2537e631.woff": "/static/media/EuclidSquare-Italic.2537e631.woff",
+    "static/media/EuclidSquare-Light.62b29a70.woff": "/static/media/EuclidSquare-Light.62b29a70.woff",
+    "static/media/EuclidSquare-Medium.8026c8db.woff": "/static/media/EuclidSquare-Medium.8026c8db.woff",
+    "static/media/EuclidSquare-Regular.5c5dedb1.woff": "/static/media/EuclidSquare-Regular.5c5dedb1.woff",
+    "static/media/OpenSans-ExtraBold.110e781b.ttf": "/static/media/OpenSans-ExtraBold.110e781b.ttf",
+    "static/media/OpenSans-Regular.1b0809d5.ttf": "/static/media/OpenSans-Regular.1b0809d5.ttf",
+    "static/media/RedHatDisplay-Bold.c7f567b8.ttf": "/static/media/RedHatDisplay-Bold.c7f567b8.ttf",
+    "static/media/RedHatDisplay-Medium.55973a9d.ttf": "/static/media/RedHatDisplay-Medium.55973a9d.ttf",
+    "static/media/discord-logo.96139a3b.svg": "/static/media/discord-logo.96139a3b.svg",
+    "static/media/red-hat-display-v4-latin-ext_latin-regular.4d0ae651.ttf": "/static/media/red-hat-display-v4-latin-ext_latin-regular.4d0ae651.ttf",
+    "static/media/red-hat-display-v4-latin-ext_latin-regular.9e52ff44.woff": "/static/media/red-hat-display-v4-latin-ext_latin-regular.9e52ff44.woff",
+    "static/media/token_sOHM-transparent.832b5dd7.png": "/static/media/token_sOHM-transparent.832b5dd7.png",
+    "static/media/token_sOHM.da3b5f33.png": "/static/media/token_sOHM.da3b5f33.png",
+    "static/media/twitterCircleWhite.0e58c368.svg": "/static/media/twitterCircleWhite.0e58c368.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e23d510f.js",
+    "static/css/2.2a338543.chunk.css",
+    "static/js/2.51619aec.chunk.js",
+    "static/css/main.80219b10.chunk.css",
+    "static/js/main.1f333f97.chunk.js"
+  ]
+}
