@@ -6,8 +6,8 @@ import { trim } from "../helpers/index.js";
 import { abi as OlympusStakingv2 } from "../abi/OlympusStakingv2.json";
 import { abi as sOHMv2 } from "../abi/sOhmv2.json";
 
-const STAKING_ADDRESS = "0xfd31c7d00ca47653c6ce64af53c1571f9c36566a";
-const SOHM_ADDRESS = "0x04F2694C8fcee23e8Fd0dfEA1d4f5Bb8c352111F";
+const STAKING_ADDRESS = "0x06B4dFAbAf0fb0Cf813526572cc86B2695c9D050";
+const SOHM_ADDRESS = "0xc45C51d423F5E2Ad2e946E45D9EC7DCF04F9bd39";
 
 // Use the mainnet
 // const network = "homestead";
@@ -15,7 +15,7 @@ const SOHM_ADDRESS = "0x04F2694C8fcee23e8Fd0dfEA1d4f5Bb8c352111F";
 const ALCHEMY_ID_LIST = EnvHelper.getAlchemyAPIKeyList();
 // const SELF_HOSTED_LIST = EnvHelper.getSelfHostedSockets();
 // const _selfHostedURIs = SELF_HOSTED_LIST;
-const _alchemyURIs = ALCHEMY_ID_LIST.map(alchemyID => `https://eth-mainnet.alchemyapi.io/v2/${alchemyID}`);
+const _alchemyURIs = ALCHEMY_ID_LIST.map(alchemyID => `https://arb-mainnet.g.alchemy.com/v2/${alchemyID}`);
 const ALL_URIs = [..._alchemyURIs];
 
 // console.log("self hosted", SELF_HOSTED_LIST);
@@ -50,6 +50,14 @@ export const getStakingAPY = async () => {
   const stakingRebase = stakingReward / circ;
   const stakingAPY = Math.pow(1 + stakingRebase, 365 * 3) - 1;
   const trimmedStakingAPY = trim(stakingAPY * 100, 0);
+  console.log(epoch);
+  console.log(circ);
+  console.log(epoch.distribute.toString());
+  console.log(circ.toString());
+  console.log(circ);
+  console.log(stakingRebase);
+  console.log(stakingAPY);
+  console.log(trimmedStakingAPY);
   return {raw: stakingAPY, formatted: trimmedStakingAPY};  
 };
 

@@ -482,7 +482,7 @@ function CompositorV2(props) {
   return (
     <Fade in={fadeTransition} timeout={{enter: fadeOutMs, exit: fadeOutMs}}>
       <Box>
-        <WelcomeHeadline headline={"Proof of Ohmie"} subText={"Show everyone that you're staked (3,3)."}/>
+        <WelcomeHeadline headline={"Proof of ZeroTwOhmie"} subText={"Show everyone that you're staked (🍔,🍔)."}/>
         
         {/*<Box className="card-nav" elevation={3} style={compositorPaper}>*/}
         <Box id="outer-wrap" className="module-border-wrap" style={{maxWidth: "1100px", alignSelf: "center"}}>

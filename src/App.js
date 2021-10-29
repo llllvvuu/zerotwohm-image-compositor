@@ -25,7 +25,7 @@ import {
 } from "react-router-dom";
 
 function App() {
-  useGoogleAnalytics();
+  // useGoogleAnalytics();
   // const windowSize = useWindowSize();
 
   // const stakeStyle = {

@@ -16,7 +16,7 @@ import BoxHomepage from "./BoxHomepage";
 function MainNavLinksV4() {
   return (
     <Box>
-      <WelcomeHeadline headline={"Welcome Ohmie"} subText={"Select an Option"}/>
+      <WelcomeHeadline headline={"Welcome ZeroTwOhmie"} subText={"Select an Option"}/>
       <Zoom in={true}>
         <BoxHomepage />
       </Zoom>
