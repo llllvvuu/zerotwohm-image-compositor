@@ -6,8 +6,8 @@ import { trim } from "../helpers/index.js";
 import { abi as OlympusStakingv2 } from "../abi/OlympusStakingv2.json";
 import { abi as sOHMv2 } from "../abi/sOhmv2.json";
 
-const STAKING_ADDRESS = "0x06B4dFAbAf0fb0Cf813526572cc86B2695c9D050";
-const SOHM_ADDRESS = "0xc45C51d423F5E2Ad2e946E45D9EC7DCF04F9bd39";
+const STAKING_ADDRESS = "0xc9ecfef2fac1e38b951b8c5f59294a8366dfbd81";
+const SOHM_ADDRESS = "0xe6d557d416ff5640235119369c7e26AA18a906D7";
 
 // Use the mainnet
 // const network = "homestead";

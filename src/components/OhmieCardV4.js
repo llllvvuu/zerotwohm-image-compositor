@@ -397,7 +397,7 @@ function OhmieCardV4(props) {
         ctx.fillText("When you’re ready, we’re ready with your", newX, newY+linePosition);
         // lineIndex = 4;
         linePosition = 26/scalingRatio + linePosition;
-        ctx.fillText("ZeroTwOhmie account. Earn rewards every 8 hours.", newX, newY+linePosition);
+        ctx.fillText("Umami account. Earn rewards every 8 hours.", newX, newY+linePosition);
 
         ///////////////////////////// BUTTON /////////////////////////////
         // button -> top left corner @ linePosition
@@ -406,7 +406,7 @@ function OhmieCardV4(props) {
         let radius = 28/scalingRatio;
         let x = newX+radius;
         let y = newY+linePosition+radius;
-        let length = 182/scalingRatio;
+        let length = 130/scalingRatio;
         
         // left semi-circle
         // ctx.arc(x, y, radius, startAngle, endAngle, counterclockwise);
@@ -440,7 +440,7 @@ function OhmieCardV4(props) {
         // letters in button
         ctx.fillStyle = useButtonColor;
         ctx.font = "500 "+20/scalingRatio+"px RedHatDisplay";
-        ctx.fillText("zerotwohm.finance", x, y+(6/scalingRatio));
+        ctx.fillText("umami.finance", x, y+(6/scalingRatio));
         ///////////////////////////// BUTTON /////////////////////////////
         // setLastTextEvent(e);
       }
@@ -798,7 +798,7 @@ function OhmieCardV4(props) {
       if (finalCanvasRef.current.toBlob) {
         finalCanvasRef.current.toBlob(function (blob) {
           const anchor = document.createElement('a');
-          anchor.download = "zerotwohmie-card"; // optional, but you can give the file a name
+          anchor.download = "umamie-card"; // optional, but you can give the file a name
           anchor.href = URL.createObjectURL(blob);
           anchor.click();
           URL.revokeObjectURL(anchor.href); // remove it from memory
@@ -900,7 +900,7 @@ function OhmieCardV4(props) {
   return (
     <Fade in={fadeTransition} timeout={{enter: fadeOutMs, exit: fadeOutMs}} style={{width: "100%"}}>
       <Box display="flex" style={{flexFlow: "column", alignItems: "center"}}>
-        <WelcomeHeadline headline={"ZeroTwOhmie Card"} subText={"Personalized card to show off your gains."}/>
+        <WelcomeHeadline headline={"Umamie Card"} subText={"Personalized card to show off your gains."}/>
         {/*<Box className="card-nav" elevation={3} style={compositorPaper}>*/}
         <Box id="outer-wrap" className="module-border-wrap" style={{maxWidth: "1100px", alignSelf: "center"}}>
           {/*<Box display="flex" alignItems="center" className="module">*/}

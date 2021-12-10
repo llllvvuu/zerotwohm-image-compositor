@@ -38,7 +38,7 @@ function OhmieCard(props) {
               className="connect-button"
               activeClassName="connect-button"
             >
-              Proof of ZeroTwOhmie
+              Proof of Umamie
             </Button>
           </Grid>
           <Grid item>
@@ -50,7 +50,7 @@ function OhmieCard(props) {
               className="connect-button"
               activeClassName="connect-button"
             >
-              ZeroTwOhmie Card
+              Umamie Card
             </Button>
           </Grid>
         </Grid>

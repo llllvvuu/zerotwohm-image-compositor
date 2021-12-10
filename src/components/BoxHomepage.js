@@ -94,7 +94,7 @@ function BoxHomepage() {
             <Box display="flex" alignItems="center" className="module">
               <Box className="rectangle-1-backdrop card-nav">
                 <Box style={textContainerStyles}>
-                  <Typography style={pofTextStyle}>Proof of ZeroTwOhmie</Typography>
+                  <Typography style={pofTextStyle}>Proof of Umamie</Typography>
                   <Typography style={stakedTextStyle}>Show everyone that you're staked (🍔,🍔).</Typography>
                   <Button
                     id="create-pfp-trigger-button"
@@ -119,7 +119,7 @@ function BoxHomepage() {
             <Box display="flex" alignItems="center" className="module">
               <Box className="rectangle-1-backdrop card-nav">
                 <Box style={textContainerStyles}>
-                  <Typography style={pofTextStyle}>ZeroTwOhmie Card</Typography>
+                  <Typography style={pofTextStyle}>Umamie Card</Typography>
                   <Typography style={stakedTextStyle}>Personalized card just to show off your gains.</Typography>
                   <Button
                     id="pool-complete-award-button"

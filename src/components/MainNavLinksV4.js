@@ -36,7 +36,7 @@ function MainNavLinksV4() {
 
   return (
     <Box>
-      <WelcomeHeadline headline={"Welcome ZeroTwOhmie"} subText={"Select an Option"}/>
+      <WelcomeHeadline headline={"Welcome Umamie"} subText={"Select an Option"}/>
       <Zoom in={true}>
         <BoxHomepage />
       </Zoom>

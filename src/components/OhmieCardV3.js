@@ -334,7 +334,7 @@ function CompositorV3(props) {
         ctx.fillText("When you’re ready, we’re ready with your", newX, newY+linePosition);
         // lineIndex = 4;
         linePosition = 26/scalingRatio + linePosition;
-        ctx.fillText("ZeroTwOhmie account. Earn rewards every 8 hours.", newX, newY+linePosition);
+        ctx.fillText("Umamie account. Earn rewards every 8 hours.", newX, newY+linePosition);
 
         ///////////////////////////// BUTTON /////////////////////////////
         // button -> top left corner @ linePosition
@@ -377,7 +377,7 @@ function CompositorV3(props) {
         // letters in button
         ctx.fillStyle = useButtonColor;
         ctx.font = 20/scalingRatio+"px RedHatDisplay";
-        ctx.fillText("zerotwohm.finance", x, y+(6/scalingRatio));
+        ctx.fillText("umami.finance", x, y+(6/scalingRatio));
         ///////////////////////////// BUTTON /////////////////////////////
         setLastTextEvent(e);
       }
@@ -1032,7 +1032,7 @@ function CompositorV3(props) {
               Back
             </Button>
             <Button variant="contained" color="primary" onClick={downloadImage} style={containerButton}>
-              Download ZeroTwOhmie Card
+              Download Umamie Card
             </Button>
           </Box>
         }
@@ -1052,7 +1052,7 @@ function CompositorV3(props) {
                 Back
               </Button>
               <Button variant="contained" color="primary" onClick={downloadImage} style={hiddenButton}>
-              Download ZeroTwOhmie Card
+              Download Umami Card
               </Button>
             </Box>
           </div>

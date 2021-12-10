@@ -33,7 +33,7 @@ import "cropperjs/dist/cropper.css";
 
 import "./stake.scss";
 
-import sOhm from '../assets/token_Ohm.svg';
+import sOhm from '../assets/token_sOHM-transparent.png';
 
 import classifyImage, {classifyOhmieImage} from "../helpers/classifyImage";
 import {getViewWidth} from "../helpers/index.js";
@@ -445,7 +445,7 @@ function CompositorV2(props) {
   return (
     <Fade in={fadeTransition} timeout={{enter: fadeOutMs, exit: fadeOutMs}}>
       <Box>
-        <WelcomeHeadline headline={"Proof of ZeroTwOhmie"} subText={"Show everyone that you're staked (🍔,🍔)."}/>
+        <WelcomeHeadline headline={"Proof of Umamie"} subText={"Show everyone that you're staked (🍔,🍔)."}/>
         
         {/*<Box className="card-nav" elevation={3} style={compositorPaper}>*/}
         <Box id="outer-wrap" className="module-border-wrap" style={{maxWidth: "1100px", alignSelf: "center"}}>
@@ -470,7 +470,7 @@ function CompositorV2(props) {
                       maxSize={200}
                       resizeStamp={resizeStamp}
                       medScreen={medScreen}
-                      directionText={"Resize and place your sOHM"}
+                      directionText={"Resize and place your sUMAMI"}
                       goBackToStart={goBackToStart}
                       downloadImage={downloadImage}
                       downloadText={"Download PFP"}

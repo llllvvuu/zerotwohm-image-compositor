@@ -10,12 +10,12 @@ function ShareOnTwitter(props) {
     if (props.inOhmieCard) {
       // text = "When you're ready, come on over at @OlympusDAO and earn rewards every 8 hours. #OHMISBACKED #OHMIECARD"
       // text = "Leading up to Fohmo 3 @OlympusDAO is giving away 33 @Ledger wallets to secure your $OHM. To participate share your Ohmie Card on Twitter with the hashtags #OHMISBACKED #OHMIECARD"
-      text = "When you're ready, come on over at @arbis_finance and earn rewards every 8 hours. #ZEROTWO #Z2OISBACKED"
+      text = "When you're ready, come on over at @UmamiFinance and earn rewards every 8 hours. #UMAMI #ARBIS #UMAMIISBACKED"
     } else {
-      text = "I'm a ZeroTwOhmie, are you anon? #ZEROTWO #Z2OISBACKED @arbis_finance";
+      text = "I'm a Umamie, are you anon? #UMAMI #ARBIS #UMAMIISBACKED @UmamiFinance";
       // text = "Leading up to Fohmo 3 @OlympusDAO is giving away 33 @Ledger wallets to secure your $OHM. To participate share your Proof of Ohmie on Twitter with the hashtags #OHMISBACKED #PROOFOFOHMIE"
     }
-    return `https://twitter.com/intent/tweet?url=https%3A%2F%2Fzerotwohm.finance&text=${encodeURIComponent(text)}`;
+    return `https://twitter.com/intent/tweet?url=https%3A%2F%2Fumami.finance&text=${encodeURIComponent(text)}`;
   };
 
   const discordString = () => {
@@ -33,7 +33,7 @@ function ShareOnTwitter(props) {
         href={urlString()}
         target="_blank"
         data-text="w"
-        data-hashtags="zerotwohm"
+        data-hashtags="umami"
         // endIcon={<TwitterIcon />}
       >
         <Typography className="btn-text" style={{marginRight: "6px"}}>Share on Twitter</Typography>
@@ -48,7 +48,7 @@ function ShareOnTwitter(props) {
         href={discordString()}
         target="_blank"
         data-text="w"
-        data-hashtags="zerotwohm"
+        data-hashtags="umami"
       >
         <img alt="test" height="24" src={discordLogo}/>
       </Button>
